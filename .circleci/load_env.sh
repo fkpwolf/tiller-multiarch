@@ -11,7 +11,7 @@ export GOPATH="$HOME/go"
 export GOROOT=/usr/local/go
 export IMAGE=tiller
 export PROJECT_PATH=$GOPATH/src/$GO_REPO
-export REGISTRY=jessestuart
+export REGISTRY=fkpwolf
 export IMAGE_ID="${REGISTRY}/${IMAGE}:${VERSION}-${_GOARCH}"
 export PATH="$GOROOT/bin:$HOME/go/bin:$PATH"
 ' >>$BASH_ENV

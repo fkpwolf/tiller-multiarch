@@ -53,8 +53,8 @@ $ kubectl apply -f manifests/tiller-rbac.yaml
 $ helm init --tiller-image=jessestuart/tiller --service-account tiller
 ```
 
-[circleci-badge]: https://img.shields.io/circleci/project/github/jessestuart/tiller-multiarch/master.svg?style=popout
-[circleci-link]: https://circleci.com/gh/jessestuart/tiller-multiarch/tree/master
+[circleci-badge]: https://img.shields.io/circleci/project/github/fkpwolf/tiller-multiarch/master.svg?style=popout
+[circleci-link]: https://circleci.com/gh/fkpwolf/tiller-multiarch/tree/master
 [docker]: https://docs.docker.com/registry/spec/manifest-v2-2/
 [dockerhub-badge]: https://img.shields.io/docker/pulls/jessestuart/tiller.svg?style=popout
 [dockerhub-link]: https://hub.docker.com/r/jessestuart/tiller/

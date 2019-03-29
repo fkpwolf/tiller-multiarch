@@ -118,7 +118,7 @@ jobs:
     environment:
       GITHUB_REPO: helm/helm
       IMAGE: tiller
-      REGISTRY: jessestuart
+      REGISTRY: fkpwolf
     steps:
       - checkout
       - setup_remote_docker
